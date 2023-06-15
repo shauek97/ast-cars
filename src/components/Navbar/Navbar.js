@@ -9,8 +9,10 @@ export default function Navbar() {
         <nav>
           <Container>
             <div className={styles.navbar}>
-              <div className={styles.logo}>
-                dsdad
+              <div className={styles.logoBox}>
+                <div className={styles.logo}>
+                  <h1> LOGO</h1>
+                </div>
               </div>
               <Menu />
             <MobileMenu />

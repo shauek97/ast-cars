@@ -22,7 +22,7 @@ export default function NavLinks(props) {
         transition={{ delay: 0.05 }}
         onClick={() => props.isMobile && props.closeMobileMenu()}
       >
-        Praca
+        Warunki współpracy
       </motion.h2>
 
       <motion.h2
@@ -32,35 +32,6 @@ export default function NavLinks(props) {
         onClick={() => props.isMobile && props.closeMobileMenu()}
       >
         Kontakt
-      </motion.h2>
-
-
-        <motion.h2
-          initial={animateFrom}
-          animate={animateTo}
-          transition={{ delay: 0.2 }}
-          onClick={() => props.isMobile && props.closeMobileMenu()}
-        >
-          Blog
-        </motion.h2>
-
-
-        <motion.h2
-          initial={animateFrom}
-          animate={animateTo}
-          transition={{ delay: 0.3 }}
-          onClick={() => props.isMobile && props.closeMobileMenu()}
-        >
-          GitHub
-        </motion.h2>
-
-      <motion.h2
-        initial={animateFrom}
-        animate={animateTo}
-        transition={{ delay: 0.4 }}
-        onClick={() => props.isMobile && props.closeMobileMenu()}
-      >
-        Contact
       </motion.h2>
     </>
   );
