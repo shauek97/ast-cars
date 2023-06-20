@@ -1,12 +1,13 @@
-import styles from "./WorkLook.module.scss";
+import styles from "./Contact.module.scss";
 import Container from "../Container/Container";
 
 export default function WorkLook() {
   return (
-    <Container>
+    
         <section className={styles.contact}>
-
+            <Container>
+            dasdsads
+            </Container>
         </section>
-    </Container>
   );
 }

@@ -26,7 +26,7 @@ export default function About() {
           transition={{ delay: 0.5 }}
           className={styles.attribute}>
             <div className={styles.attributeTitle}>
-              <h3>Przyjazna atmosfera</h3>
+              <h3>PRYJAZNA <br></br>ATMOSFERA</h3>
             </div>
             <div className={styles.attributeIcon}>
               <SiHandshake />
@@ -47,7 +47,7 @@ export default function About() {
           transition={{ delay: 1 }}
           className={styles.attribute}>
             <div className={styles.attributeTitle}>
-              <h3>Atrakcyjne wynagrodzenie</h3>
+              <h3>ATRAKCYJNE<br></br> WYNAGRODZENIE</h3>
             </div>
             <div className={styles.attributeIcon}>
               <BsCashStack />
@@ -65,7 +65,7 @@ export default function About() {
           transition={{ delay: 1.5 }}
           className={styles.attribute}>
             <div className={styles.attributeTitle}>
-              <h3>Nowe samochody</h3>
+              <h3>NOWE <br></br>SAMOCHODY</h3>
             </div>
             <div className={styles.attributeIcon}>
               <FaCar />
