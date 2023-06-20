@@ -2,6 +2,7 @@
 
 
 .welcomeSection{
+    padding: 0;
     height: 90vh;
     display: flex;
     align-items: center;
@@ -11,12 +12,15 @@
 
 .titleBox{
     margin: 0 auto;
+    display: flex;
+    align-items: center;
 }
 
 .writings{
     h1{
         font-size: $base-size*3;
         font-weight: 800;
+        margin-bottom: $base-size;
     }
 
     p{

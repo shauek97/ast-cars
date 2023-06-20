@@ -1,8 +1,27 @@
 @import "../../styles/settings.scss";
 
-.title{
-   h2{
-     font-size: $base-size*2;
-     font-weight: 500;
-   }
+.about{
+    padding: $base-size*8 0;
+}
+
+.mainBox{
+    margin:0 auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.attribute{
+    margin: $base-size;
+    min-width: 400px;
+    max-width: 420px;
+}
+
+.attributeTitle{
+    h3{font-size: $base-size*1.3;}
+}
+
+.attributeIcon{
+    margin: $base-size*5 0;
+    scale:7;
 }
