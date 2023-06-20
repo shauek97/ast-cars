@@ -7,13 +7,27 @@ import {
   TbCircleNumber4,
   TbCircleNumber5,
 } from "react-icons/tb";
+import { motion } from "framer-motion";
+import { useRef } from "react";
+import { useInView } from "framer-motion";
 
 export default function WorkLook() {
+
+  const ref = useRef(null);
+  const isInView = useInView(ref, { once: true });
+
+  const animateFrom = { opacity: 0, y: -40};
+  const animateTo = { opacity: 1, y: -0};
+  
   return (
     <Container>
       <section className={styles.workLook}>
-        <div className={styles.mainBox}>
-          <div className={styles.rule}>
+        <div ref={ref} className={styles.mainBox}>
+          <motion.div
+          initial={animateFrom}
+          animate={isInView ? animateTo : animateFrom}
+          transition={{ delay: 0.5 }}
+           className={styles.rule}>
             <div className={styles.ruleNumber}>
               <TbCircleNumber1 />
             </div>
@@ -23,8 +37,12 @@ export default function WorkLook() {
                 twoich danych w aplikacji i dopełnienie reszty formalności.
               </p>
             </div>
-          </div>
-          <div className={styles.rule}>
+          </motion.div>
+          <motion.div
+          initial={animateFrom}
+          animate={isInView ? animateTo : animateFrom}
+          transition={{ delay: 1 }}
+          className={styles.rule}>
             <div className={styles.ruleNumber}>
               <TbCircleNumber2 />
             </div>
@@ -35,8 +53,12 @@ export default function WorkLook() {
                 tygodniu. Jeździsz tyle ile chcesz!
               </p>
             </div>
-          </div>
-          <div className={styles.rule}>
+          </motion.div>
+          <motion.div
+          initial={animateFrom}
+          animate={isInView ? animateTo : animateFrom}
+          transition={{ delay: 1.5 }}
+          className={styles.rule}>
             <div className={styles.ruleNumber}>
               <TbCircleNumber3 />
             </div>
@@ -46,8 +68,12 @@ export default function WorkLook() {
                 bądź w nocy od 19 do 7.
               </p>
             </div>
-          </div>
-          <div className={styles.rule}>
+          </motion.div>
+          <motion.div
+          initial={animateFrom}
+          animate={isInView ? animateTo : animateFrom}
+          transition={{ delay: 2 }}
+          className={styles.rule}>
             <div className={styles.ruleNumber}>
               <TbCircleNumber4 />
             </div>
@@ -58,8 +84,12 @@ export default function WorkLook() {
                 zmiennika, samochód jest do odebrania na bazie firmy.
               </p>
             </div>
-          </div>
-          <div className={styles.rule}>
+          </motion.div>
+          <motion.div
+          initial={animateFrom}
+          animate={isInView ? animateTo : animateFrom}
+          transition={{ delay: 2.5 }}
+          className={styles.rule}>
             <div className={styles.ruleNumber}>
               <TbCircleNumber5 />
             </div>
@@ -69,7 +99,7 @@ export default function WorkLook() {
                 znać 2 tygodnie wcześniej.
               </p>
             </div>
-          </div>
+          </motion.div>
         </div>
       </section>
     </Container>
