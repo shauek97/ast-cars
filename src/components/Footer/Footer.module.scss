@@ -1,0 +1,11 @@
+@import "../../styles/settings.scss";
+
+.footer{
+    background-color: $color-light;
+    padding: $base-size*2;
+    p{
+    font-family: $font-second;
+    letter-spacing: normal;
+    }
+
+}
