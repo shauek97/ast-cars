@@ -10,7 +10,7 @@ export default function NavLinks(props) {
         <motion.h2
           initial={animateFrom}
           animate={animateTo}
-          transition={{ delay: 0.2 }}
+          transition={{ delay: 0.02 }}
           onClick={() => props.isMobile && props.closeMobileMenu()}
         >
           O nas

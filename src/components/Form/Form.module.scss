@@ -1,0 +1,39 @@
+@import "../../styles/settings.scss";
+
+
+
+.formTitle{
+    h3{
+        color: $color-light;
+        font-size: $base-size*2;
+        font-weight: 300;
+        line-height: 1.5;
+    }
+}
+
+.formBox{
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+    input{
+        width: 100%;
+        border: 3px solid $color-light;
+        height: $base-size * 2;
+        margin: $base-size 0;
+        background-color: $color-blue;
+        transition: $transition;
+    }
+
+    input::placeholder{
+        color: white;
+    }
+
+    input:focus {
+        outline: none;
+        background-color: white;
+        input::placeholder{
+            color: $color-dark;
+        }
+      }
+}

@@ -80,7 +80,7 @@ export default function WorkLook() {
             <div className={styles.ruleDescription}>
               <p>
                 Jeśli przed tobą jeździł inny kierowca, przyjeżdża on pod twój
-                dom i ty odwozisz go pod jego dom. W innym wypadku, jeśli nie ma
+                dom i ty odwozisz go pod jego dom. W innym przypadku, jeśli nie ma
                 zmiennika, samochód jest do odebrania na bazie firmy.
               </p>
             </div>
