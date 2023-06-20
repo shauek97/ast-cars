@@ -21,7 +21,7 @@ export default function WorkLook() {
   
   return (
     <Container>
-      <section className={styles.workLook}>
+      <section className={styles.workLook} id="workLook">
         <div ref={ref} className={styles.mainBox}>
           <motion.div
           initial={animateFrom}

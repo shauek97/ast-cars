@@ -17,7 +17,7 @@ export default function About() {
 
   return (
     <Container>
-      <section className={styles.about}>
+      <section className={styles.about} id="about">
       <div ref={ref}>
         <div className={styles.mainBox}>
           <motion.div

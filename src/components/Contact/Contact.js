@@ -4,7 +4,7 @@ import Form from "./../Form/Form";
 
 export default function Contact() {
   return (
-    <section className={styles.contact}>
+    <section className={styles.contact} id="contact">
       <Container>
         <Form />
       </Container>
