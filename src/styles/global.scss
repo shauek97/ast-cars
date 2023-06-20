@@ -16,7 +16,7 @@ body {
 }
 
 section{
-  padding: $base-size*3 0;
+  padding: $base-size*6 0;
 }
 
 h1,
@@ -32,4 +32,5 @@ h6{
 p{
   margin: 0;
   font-size: $base-size;
+  font-weight: 500;
 }

@@ -2,21 +2,26 @@
 
 .workLook{
     text-align: start;
+    padding: 0;
 }
 
 .rule{
     display: flex;
+    padding: $base-size*0.5;
     margin: $base-size*2 0;
+    border: 2px dashed $color-blue;
 }
 
 .ruleNumber{
     display: flex;
     align-items: center;
-    scale: 3;
+    font-size: $base-size*2;
+    color: $color-blue;
 }
 
 .ruleDescription{
-    margin-left: $base-size;
-    border: 2px solid $color-blue;
+    padding: $base-size*0.5;
+    margin-left: $base-size*0.5;
+    font-weight: 500;
 }
 

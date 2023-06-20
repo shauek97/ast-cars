@@ -23,7 +23,7 @@ export default function About() {
           <motion.div
           initial={animateFrom}
           animate={isInView ? animateTo : animateFrom}
-          transition={{ delay: 1 }}
+          transition={{ delay: 0.5 }}
           className={styles.attribute}>
             <div className={styles.attributeTitle}>
               <h3>Przyjazna atmosfera</h3>
@@ -44,7 +44,7 @@ export default function About() {
           <motion.div
           initial={animateFrom}
           animate={isInView ? animateTo : animateFrom}
-          transition={{ delay: 1.5 }}
+          transition={{ delay: 1 }}
           className={styles.attribute}>
             <div className={styles.attributeTitle}>
               <h3>Atrakcyjne wynagrodzenie</h3>
@@ -62,7 +62,7 @@ export default function About() {
           <motion.div
           initial={animateFrom}
           animate={isInView ? animateTo : animateFrom}
-          transition={{ delay: 2 }}
+          transition={{ delay: 1.5 }}
           className={styles.attribute}>
             <div className={styles.attributeTitle}>
               <h3>Nowe samochody</h3>
