@@ -29,3 +29,37 @@
         font-size: $base-size*1.5;
     }
 }
+
+@media (max-width: 992px) {
+    .writings{
+        h1{
+            font-size: $base-size*2.5;
+            font-weight: 900;
+            margin-bottom: $base-size*0.8;
+
+        }
+
+        p{
+            font-size: $base-size;
+        }
+    }
+}
+
+@media (max-width: 768px) {
+    .welcomeSection{
+        height: 70vh;
+    }
+    .writings{
+        max-width: 400px;
+        h1{
+            font-size: $base-size*1.8;
+            font-weight: 800;
+            margin-bottom: $base-size*0.5;
+
+        }
+
+        p{
+            font-size: $base-size*0.7;
+        }
+    }
+}

@@ -8,7 +8,6 @@ export default function WelcomeSection() {
   const animateTo = { opacity: 1};
 
   return (
-    
       <section className={styles.welcomeSection}>
         <Container>
         <div className={styles.titleBox}>

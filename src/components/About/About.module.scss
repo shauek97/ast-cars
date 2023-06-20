@@ -32,8 +32,32 @@
 }
 
 .attributeIcon{
-    margin: $base-size*5 0;
-    scale:7;
+    margin: $base-size*3 0;
+    font-size: $base-size*5;
     color: $color-blue;
 }
 
+
+@media (max-width: 992px) {
+    .about{
+        padding-top:$base-size*2;
+        padding-bottom: 0 ;
+    }
+
+    .mainBox{
+        margin:0 auto;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    .attribute{
+        margin: $base-size*3 $base-size;
+        min-width: 400px;
+        max-width: 420px;
+    }
+}
+
+@media (max-width: 768px) {
+   
+}

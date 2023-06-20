@@ -26,7 +26,7 @@ export default function About() {
           transition={{ delay: 0.5 }}
           className={styles.attribute}>
             <div className={styles.attributeTitle}>
-              <h3>PRYJAZNA <br></br>ATMOSFERA</h3>
+              <h3>PRZYJAZNA <br></br>ATMOSFERA</h3>
             </div>
             <div className={styles.attributeIcon}>
               <SiHandshake />
