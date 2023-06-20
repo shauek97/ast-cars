@@ -1,0 +1,22 @@
+@import "../../styles/settings.scss";
+
+.workLook{
+    text-align: start;
+}
+
+.rule{
+    display: flex;
+    margin: $base-size*2 0;
+}
+
+.ruleNumber{
+    display: flex;
+    align-items: center;
+    scale: 3;
+}
+
+.ruleDescription{
+    margin-left: $base-size;
+    border: 2px solid $color-blue;
+}
+
