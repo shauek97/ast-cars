@@ -1,0 +1,25 @@
+@import "../../styles/settings.scss";
+
+
+.welcomeSection{
+    height: 90vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: $color-blue;
+}
+
+.titleBox{
+    margin: 0 auto;
+}
+
+.writings{
+    h1{
+        font-size: $base-size*3;
+        font-weight: 800;
+    }
+
+    p{
+        font-size: $base-size*1.5;
+    }
+}
