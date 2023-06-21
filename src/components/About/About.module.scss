@@ -37,6 +37,14 @@
     color: $color-blue;
 }
 
+@media (max-width: 1200px) {
+    .mainBox{
+        margin:0 auto;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+  }
 
 @media (max-width: 992px) {
     .about{
@@ -44,12 +52,7 @@
         padding-bottom: 0 ;
     }
 
-    .mainBox{
-        margin:0 auto;
-        display: flex;
-        justify-content: center;
-        flex-wrap: wrap;
-    }
+ 
 
     .attribute{
         margin: $base-size*3 $base-size;
@@ -59,5 +62,46 @@
 }
 
 @media (max-width: 768px) {
-   
+    .about{
+        padding-top:$base-size 0;
+        padding-bottom: 0 ;
+    }
+
+    .attribute{
+        margin: $base-size*2 0;
+    }
+
+    .attribute{
+        margin: $base-size*3 0;
+        min-width: 300px;
+    }
+
+    .attributeTitle{
+        max-width: 300px;
+        margin: 0 auto;
+        h3{
+            font-size: $base-size* 1.5;
+            line-height: 1;
+        }
+    }
+
+    .attributeIcon{
+        max-width: 300px;
+        margin: 0 auto;
+    }
+
+    .attributeDescription{
+        max-width: 300px;
+        margin: 0 auto;
+        p{
+            font-size: $base-size*0.8;
+        }
+    }
+
+    .mainBox{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
 }
