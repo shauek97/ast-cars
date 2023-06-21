@@ -4,3 +4,14 @@
     background-color: $color-blue;
     padding: $base-size*7 0;
 }
+
+
+@media (max-width: 768px) {
+
+    .contact{
+        background-color: $color-blue;
+        padding: $base-size*4 0;
+    }
+  
+  }
+  
