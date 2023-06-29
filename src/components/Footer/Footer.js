@@ -5,7 +5,7 @@ export default function Footer() {
   return (
     <section className={styles.footer}>
       <Container>
-        <p>Copyright © AST CARS 2023. All rights reserved.</p>
+        <p>Copyright © ATH CAR 2023. All rights reserved.</p>
       </Container>
     </section>
   );

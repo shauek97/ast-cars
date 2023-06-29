@@ -16,18 +16,21 @@ export default function Form() {
         <h3>Wyślij nam swoje dane kontaktowe, a my odezwiemy się do Ciebie!</h3>
       </div>
       <div ref={ref} className={styles.formBox}>
-        <form>
+        <form
+          action="https://formsubmit.co/bartlomiej.tokarczyk99@gmail.com"
+          method="POST"
+        >
           <input type="text" name="name" placeholder="Imię" required></input>
           <input
             type="text"
-            name="name"
+            name="surname"
             placeholder="Nazwisko"
             required
           ></input>
           <input type="email" name="email" placeholder="Email" required></input>
           <input
-            type="email"
-            name="email"
+            type="text"
+            name="tel"
             placeholder="Telefon"
             required
           ></input>

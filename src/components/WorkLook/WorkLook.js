@@ -33,7 +33,7 @@ export default function WorkLook() {
             </div>
             <div className={styles.ruleDescription}>
               <p>
-                Po podpisaniu umowy, około tygodnia zajmie nam rejestracja
+                Po podpisaniu umowy, 48h w dniach roboczych zajmie nam rejestracja
                 twoich danych w aplikacji i dopełnienie reszty formalności.
               </p>
             </div>
@@ -79,7 +79,7 @@ export default function WorkLook() {
             </div>
             <div className={styles.ruleDescription}>
               <p>
-                Jeśli przed tobą jeździł inny kierowca, przyjeżdża on pod twój
+                Gdy przed tobą jeździł inny kierowca, przyjeżdża on pod twój
                 dom i ty odwozisz go pod jego dom. W innym przypadku, jeśli nie ma
                 zmiennika, samochód jest do odebrania na bazie firmy.
               </p>
@@ -95,8 +95,7 @@ export default function WorkLook() {
             </div>
             <div className={styles.ruleDescription}>
               <p>
-                Gdy będziesz chciał zakończyć współpracę, wystarczy, że dasz nam
-                znać 2 tygodnie wcześniej.
+                Jeśli dalej masz wątpliwości, czy jesteśmy najlepsi, po prostu zapytaj naszych kierowców! :)
               </p>
             </div>
           </motion.div>

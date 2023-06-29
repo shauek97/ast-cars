@@ -16,7 +16,7 @@ export default function WelcomeSection() {
         animate={animateTo}
         transition={{ delay: 0.2 }}
          className={styles.writings}>
-          <h1>DOŁĄCZ DO AST CARS</h1>
+          <h1>DOŁĄCZ DO ATH CAR</h1>
           <p>Najszybciej rozwijający się partner UBER, BOLT w Krakowie!</p>
         </motion.div>
         </div>
